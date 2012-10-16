@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="1">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="ring"
+                android:innerRadius="0dp"
+                android:thickness="30dp"
+                android:useLevel="false">
+            <solid
+                    android:color="#FF0000"/>
+        </shape>
+    </item>
+    <item android:maxLevel="0">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="ring"
+                android:innerRadius="17dp"
+                android:thickness="2dp"
+                android:useLevel="false">
+            <solid
+                    android:color="#00FF00"/>
+        </shape>
+    </item>
+</layer-list>
